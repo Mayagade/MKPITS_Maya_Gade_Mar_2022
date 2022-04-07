@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
- main()
+ void main()
 {
 	int num1,num2,sum;
 	printf("enter two number");
