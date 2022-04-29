@@ -7,19 +7,18 @@ int main()
 	scanf("%d",&n);
 	bak=n;
 	t=n;
-	do
+	for(;n>0;)
 	{
 		d=n%10;
 		count=count+1;
 		n=n/10;
 	}
-	while(n>0);
-	do
+	for(;t>0;)
 	{
 		r=t%10;
 		add=add+pow(r,count);
 		t=t/10;
-	}while(t>0);
+	}
 	if(bak==add)
 	{
 		printf("armstrong number");
