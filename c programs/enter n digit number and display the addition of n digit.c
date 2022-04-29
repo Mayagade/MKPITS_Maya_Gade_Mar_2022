@@ -5,12 +5,12 @@ int main()
 	printf("enter any number\n");
 	scanf("%d",&num);
 	bak=num;
-	for(;num>0;)
+	do
 	{
 	n=num%10;
 	add=add+n;
 	num=num/10;
-	}
+	}while(num>0);
 	printf("addition of %d = %d",bak,add);
 }
 
